@@ -10,7 +10,7 @@ set(CMAKE_CXX_EXTENSIONS OFF)          # 不用 gnu 扩展，保持可移植
 add_executable(tgademo
     main.cpp
     tgaimage.cpp
-    Vec.cpp
+    model.cpp
 )
 
 # 头文件就在同一目录，无需额外 include；如果以后换目录可这样写：
